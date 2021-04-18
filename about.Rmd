@@ -1,0 +1,16 @@
+---
+title: "Marnin Wolfe"
+image: "old_avatar_need_new.jpg"
+links:
+  - label: Twitter
+    url: "https://twitter.com/wolfemd/"
+  - label: GitHub
+    url: "https://github.com/wolfemd"
+  - label: Email
+    url: "mailto:mw489@cornell.edu"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+ 
+Raised by Wolfes and Mosses.

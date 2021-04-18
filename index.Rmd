@@ -1,0 +1,71 @@
+---
+title: "Marnin Wolfe"
+image: "images/old_avatar_need_new.jpg"
+links:
+  - label: Twitter
+    url: "https://twitter.com/wolfemd"
+  - label: GitHub
+    url: "https://github.com/wolfemd"
+    icon: fa-github
+  - label: Google Scholar
+    url: "https://scholar.google.com/citations?user=jfdW8SkAAAAJ&hl=en&oi=ao"
+  - label: ORCID
+    url: "https://orcid.org/0000-0002-5929-5785"
+  - label: Email
+    url: "mailto:mw489@cornell.edu"
+site: distill::distill_website
+output:
+  postcards::trestles
+---
+
+# Welcome
+
+I am Marnin (he/his/him). I'm a quantitative geneticist with a PhD in Ecology and Evolutionary Biology and almost 8 years experience doing research, development and applied plant breeding. I am passionate about genetic diversity of all kinds. I've found an exciting home for myself in the field of plant breeding and genetics. I get to put together my loves for food, the inheritance and evolution of complex multivariate phenotypes with a desire to make a difference for people. I am a Research Associate in Plant Breeding and Genetics, part of Jean-Luc Jannink's research group at Cornell University. As part of an international, multi-disciplinary team known as the [Next Generation Cassava Breeding project](www.nextgencassava.org), I am helping to develop new cassava cultivars that empower small-holder farmers by applying innovate genomics-enabled breeding methods. Since 2013, I've conducted fundamental questions about the genetic diversity, inheritance and prediction of complex traits and the design of breeding strategies. Also during this time, I have led the application genomic prediction of breeding value and clonal performance as well as supporting informatics to support cassava breeding project-wide. 
+
+I'm passionate about reproducible and open-access research. I am always working to better communicate all aspects of the research and development process as well as the ongoing applied work. 
+
+This page is meant to be both my academic home page and importantly a long-needed organizational structure and launching pad for what are currently many, disconnected GitHub Pages/repositories. 
+
+#### Research
+
+**Genomic Mate Selection**
+
+Breeders typically use truncation selection and invest significant resources evaluating progeny to find exceptional genotypes. We extended genetic variance and trait covariance prediction to include dominance and predict the multivariate selection index variance. We enable mate selection based on potential to produce future parents (progeny with excellent breeding values) and/or varieties (progeny with top performance). Using cross-validation, we demonstrate that the usefulness of a cross, as indicated by the performance of breeder-selected parents and candidate varieties, can be successfully predicted in cassava based on existing genotype and phenotype data in a West African (IITA) genomic selection training population and pedigree. 
+
+- [Article](https://www.biorxiv.org/content/10.1101/2021.01.05.425443v1): Currently on bioRxiv and *in review*.
+- [Supplementary Project Page](https://wolfemd.github.io/PredictOutbredCrossVar/) created using the R package `workflowr`.
+- [predCrossVar](https://wolfemd.github.io/predCrossVar/): supporting R package for making mate selection predictions, documented with R's `pkgdown` library.
+
+#### Application
+
+[Applied Work for NextGen Cassava Breeding](nextgencassava_applied.html): Start here for links and synopses of recent and ongoing applications of genomic prediction, informatics and all related analyses I do supporting the NextGen Cassava team.
+
+- 2019
+     - [IITA Predictions](https://wolfemd.github.io/IITA_2019GS/)
+
+#### Resources
+
+
+
+
+
+
+
+
+<!-- HTML footer thanks to -->
+<!-- https://holtzy.github.io/Pimp-my-rmd/ -->
+&nbsp;
+<hr />
+<p style="text-align: center;">Created by <a href="https://github.com/wolfemd/">Marnin Wolfe</a></p>
+<p style="text-align: center;"><span style="color: #808080;"><em>wolfemd@gmail.com</em></span></p>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://twitter.com/wolfemd" class="fa fa-twitter"></a>
+    <a href="https://github.com/wolfemd/" class="fa fa-github"></a>
+</p>
+
+&nbsp;

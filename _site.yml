@@ -1,0 +1,30 @@
+name: "wolfe_homepage"
+title: "Marnin Wolfe"
+description: |
+  Wolfe Homepage
+theme: homepage_theme.css
+output_dir: "docs"
+navbar:
+  # logo:
+  #   image: images/old_avatar_need_new.jpg
+  #   href: https://wolfemd.github.io
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "NextGen Cassava Breeding"
+      menu:
+      - text: "Applied Work"
+        href: nextgencassava_applied.html
+    - text: "Resources"
+      href: resources.html
+    - text: "Research"
+      href: research.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/wolfemd/wolfe_homepage/
+output: 
+  distill::distill_article:
+    highlight: haddock
+    highlight_downlit: false
+
